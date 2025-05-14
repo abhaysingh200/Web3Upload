@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# Web3Upload - GDrive 3.0
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A decentralized file storage system on Ethereum using IPFS via Pinata.
 
-Try running some of the following tasks:
+## Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+- Upload images to IPFS
+- View uploaded images by address
+- Share and revoke access
+- Wallet connection via MetaMask
+
+## Tech Stack
+
+- React.js
+- Ethereum (Ethers.js)
+- IPFS + Pinata
+- Solidity (Smart Contract)
+
+## How to Run
+
+1. `npm install`
+2. `npm run dev` or `npm start`
+3. Connect MetaMask
