@@ -19,5 +19,8 @@ A decentralized file storage system on Ethereum using IPFS via Pinata.
 ## How to Run
 
 1. `npm install`
-2. `npm run dev` or `npm start`
-3. Connect MetaMask
+2. `npx hardhat node`
+3. `npx hardhat run scripts/deploy.js --network localhost`
+4. `cd .\client`
+5. `npm run dev` or `npm start`
+6. Connect MetaMask
